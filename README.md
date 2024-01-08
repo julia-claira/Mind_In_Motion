@@ -8,12 +8,16 @@ In this project, we explore the use of motor actigraphy data collected from wear
 
 ## Goals
 
+![Sample Graph](images/data2.png)
+
 - Utilize machine learning techniques to classify patients with depression based on motor actigraphy data.
 - Extract relevant features from the motor actigraphy data to enhance classification performance.
 - Investigate the impact of different machine learning algorithms on the classification task.
 - Evaluate the model's performance using appropriate metrics and validation strategies.
 
 ## Dataset
+
+![Sample Graph](images/data3.png)
 
 The dataset used in this project comprises motor actigraphy recordings collected from individuals diagnosed with depression. The data includes various activity bouts and inactivity bouts captured over an extended period. Additionally, demographic and clinical information, such as the severity of depression (assessed using the MADRS scale) and the patient's diagnosis (bipolar, unipolar, or normal), are also provided.
 
@@ -35,6 +39,8 @@ Enrique Garcia-Ceja, Michael Riegler, Petter Jakobsen, Jim Tørresen, Tine Nordg
 6. Evaluation: The performance of each model was evaluated using standard K-fold cross validation and various metrics, including accuracy, recall, and F1-score.
 
 ## Results
+
+![Sample Graph](images/data4.png)
 
 Our models achieved promising results in classifying patients with depression based on motor actigraphy data, with logistic regression achieving 83%, 82%, and 84% accuracy, F1 score and recall, respectively.
 
